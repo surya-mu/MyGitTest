@@ -1,0 +1,259 @@
+Manual Testing Concepts
+-------------------------
+https://www.guru99.com/software-testing.html
+https://www.slideshare.net/mousmip/software-testing-15337141?from_search=0
+https://artoftesting.com/structural-testing-vs-functional-testing#:~:text=Software%20testing%20is%20important%20to,implementation%20of%20the%20code%20structure.
+
+Test Engineer/QA Engineer AVP/VP/SVP 
+
+1. What is Software
+ It is a set of executable programs written in specific language 
+Java, c, C#, Python
+eg: google, FB,	 Whatsapp, Instagram (Mobile apps), Hospital mgmt 
+
+2. What is Testing - QA(Test Engineer) -> Quality Assurance-> Act like police man(policing job)-> Quality will improve(80 or 90 95 or 100)-> Testing
+It is to validate/check whether the expected and the Actual value matching or not against the customer requirement
+Eg: car - should meet the customer expectation. software , automobile, mobile and pen
+Registration & Login ...
+Dev - Login
+Test Plan(TM/TL) -> Defines the road map for the entire testing activity: Test Strategy(approach towards testing), scope of testing (various types testing)
+Risks, test entry/exit criteria, test environments (QA env), trainings, schedule
+3. S/W Testing
+It is process of executing/testing with an intent of finding defect/bugs & the requirements are covered
+
+Defect/Bug - Not meeting the expectation - lead to a defect
+
+Defect is not matching any of the Test Cases, then we need to write a new Test case-> then map the defect to that TC
+
+4. What is Quality - Is the product/application working as per the requirement within the budget & time
+Meeting the customer requirement on time & within the budget -> Quality | RelQ - Reliable Quality
+
+5. Error v/s Defect v/s Failure
+
+Error - While writing a code if programmer find any mistakes from coding part like syntactical errors
+then it is called Error
+
+Defect - Expected -> Not equal to -> Actual : Bug
+Bug life cycle -> Description, Steps, Screenshot, logs, Status -> New->Assigned-> In progress/Open -> Fixed -> Verify -> Close
+
+Failure - The application or a product is facing any problem while using it is called Failure -> Engine failure
+
+6. What is product and what is project
+
+project - is designed and delivered to a particulate customer - Cooking for a family, tailor to stich - particular customer
+Product - It is developed for multiple customers or for the entire market requirement - MS Office, ATM software with multiple users Eg - Tirupati Laddu,  MS office, Amazon
+
+7. Ways of Software Testing - 2 types
+a. Manual Testing - Process of conducting testing on application by the human interaction is called Manual Testing...Going outside with walk - More time
+b. Automation Testing - Process of conducting the testing on application with the help of tools and s/w
+Eg:Any vehicle (Tool) to reach the destination
+
+8. SDLC - Software Development Life Cycle  - Requirement (BA,PO)-> Design(SA)-> Develop(Progmmer/developer)-> Test(QA)-> Deploy-> Maintenance
+BA- Business Analyst or the PO - Product Owner, Content Writers - Documentation, SA -> Solution Architects -> Design 
+Manager or Lead role -> Monitor the progress of the team (QA/Dev) and help them in resolving any conflicts (software licenses or environmental issues), clarity required w.r.t requirements
+AUT - Application Under Test -> Phased manner by the developers do the coding
+
+All implementation details of the project from day1 till end of the project
+Requirement->Design-> Develop(coding)-> Testing -> deploying (host)->Maintenance
+
+9. Who will bring/get the project for the company ?
+CEO, Board people, Sales People, Vertical heads (Business Unit Heads), PO, PM - Leaders, Developers, Testers
+RFP - Request for Proposal
+
+Project Initiation (PI) - Project Manager (with domain knowledge)
+Insurance - 
+Medical - 
+E-Commerce - 
+Banking
+
+Requirement Gathering - BA / PO - Static testing - 4 or 5 
+BRS - Business Requirement Specification
+SRS - Software Requirement Specification
+SFS - Function Req
+Use cases(Agile) - 
+
+Environment - Dev env (Developer) -> QA Env (Testers) -> Stage env (pre-production/replica) Testers -> Production env (real/live/cust env)
+None of the softwares are - Free from Defects -> QA job is to minize the no of defects
+
+Project Planning - P.M 
+------------------
+Budget - 100 CR (Builder) Customer pay to develop -> Dev, test every invovled
+Time - 2 years
+Design - Technical/Solution Architect 
+Coding - Programmer/Developer
+Testing - Tester/QA
+a. White-Box/Unit Testing - Programmer/Dev
+Integration Testing - QA -> Combining 2 or more  features/modules
+Blackbox Testing - Functionality without the knowledge of the code
+User Interface (GUI) Testers - AUT
+Functional - Login/logout, validation, reset, transactions (money transfer, appt schedule, taking policy) for AUT
+System Testing - Overall (Testing the system as whole)
+End to End Testing - Right from Login to order to submit -> delivery the product
+Scope of Testing - Understanding the scope 
+Non-Functioanl: Performance Testing (Stress/Load Testing) - Application can handle the load of many customers at the same time, Security testing
+
+Installing/Release - To the customer 
+Support/Maintenance 
+UAT - Customers/End users
+--------------
+HLD - High levle Design - Page, logo 
+LLD - Low level Design - compose , login, field
+
+SDLC -> End to end development  - Software Development Life Cycle
+Complete step by step process is called SDLC
+
+Verification: Are we building the system, right? - Reviewing the doc-static testing
+Validation: Are we building the right system? - Dynamic Testing
+
+STLC-> Software Testing Life Cycle part of -> SDLC
+
+Highlights
+-----------
+1. Manual Testing 
+a. Software Testing Concepts b. Software Testing Project c. Tools
+2. Tools - Testlink, Bugzilla, Jira, redmine - Evaluate which meets your project need/req
+3. Interview guidance - before you hire team members for the project
+4. Resume building - 
+5. Certification - 
+6. Notes & Recordings
+
+Review of Test Cases-> to check whether it is written correctly or not & it should cover 100% of the customer requirement 
+Review -> with the peer (QA team) or with the concerned developer(who has developed that particular code) 
+
+===============
+
+Day-2
+S/W Testing Verification & Validation
+Verification - Static Testing (Process of verifying the developing application is right or not) - Documents
+Validation - Dynamic Testing (Process of validating the developed application)
+
+SDLC - These two are sequential 
+a. Waterfall model 
+Adv: Easy to undetstand/design
+Dis-Adv - Not designed for the big size
+b. V - model
+Adv - Save time, easy to follow, Better than Waterfall
+
+2. Incremental 
+a. RAD model - We have to develop apps within short time...Multiple teams to develop the applications. Adv - Saves time, quickly
+b. Prototype - When the requirements are not clear or it may not be available. We develop DUMMY model
+c. Spiral model - If the customer requirements 
+d. Agile model - 5 use-cases Sprint #1 (short time - 2 or 3 weeks) -> Not in between -> change after seeing -> Dev (Will decide these changes can be given)
+
+System Testing - White box or Black Box ?
+White box - Developer
+Black Box - do we see the code ? - Integration, Functional & System testing, Iterations(Multiple times)
+Build 1.0-> Feat A & B -> Testing -> 1.3 A,B & C or fixed older bugs
+GUI Testing - UI plays impt role - User friendly
+Usability - How easy to use
+
+Non-Functional - mean ? Performance /stress testing - Load Runner-Licensed, Jmeter (Free), security testing, cookie testing
+
+Test Lead/Manager 
+1. Scope of Testing is based on requirement
+Effort also will vary (increase/decrease)
+Compatibility -> Testing on two different Platforms or two or more browsers
+
+Scope is limited to Manual Testing 10 hrs to complete 20 (1 man day is 8 hrs)
+1. Depends upon the Complexity of AUT
+2. Documents/feature 
+3. Test Data - password field-> Cust Req-> Min 6 Max 8 char -> 1 spec, 1 numer, 1 Capital letter and rest can be alphabets-> Noted by Business-> SRS/SFS
+4. Elements
+
+Test Data Preparation Techniques -> Equivalence partition, Boundary value and Error guessing
+
+Execution of the TC
+Chrome - 8 hrs
+FF - 8 hrs
+Edge - 8 hrs
+
+Total effort -> 10+8+8=26+3 hrs (3.5 days) (10 -> TC creation) 
+Peer review - 2 hrs
+Raise defect - 30 mins
+
+RTM -> Requirement Traceability Matrix
+https://www.guru99.com/traceability-matrix.html
+
+QA Challenges 
+1. Communication - GAP
+2. Effort for QA - 
+3. Setup (Hardware & Software) - IT/DevOPS
+4. Cross compatibility - Scope of testing
+5. Integration - 2 modules are closely coupled
+6. Not delivering on time - QA
+7. Requirements not clear
+8. Co-ordination 
+9. Time zone
+10. Cross functional teams
+11. Risk based testing based on the time or software (Ora 11 or Web)
+
+Once the application is available to test
+Execute the test cases
+
+Good Tester: Attention to detail( Doc, TCs), No Assumption, Test to break attitude (Thinking negative, Improve the Quality), Destructive(negative), Debugging - Trace the errors, Good communication(Steps,logs/screenshot,title of the defect, TCs), Organized
+Detailed Analysis of a project, Any module with different scenarios, prioritize the testing activity
+
+
+Jira
+----
+Test Management/Bug reporting and Project Mgm tool-> Licensed-> Atlassian company (Australia)
+
+Story->tasks/sub-tasks->Dev or Testing
+
+1. How to create project in Jira
+2. How to add users/groups in jira
+3. How to create backlog - Epic
+4. How to create stories in Jira & add story points
+5. How to create sprint in jira
+6. start sprint
+7. Adding sub-tasks
+8. sprint life cycle - 1 to 4 weeks (once we are done with all the tasks/stories)-> Done
+9. How to add Zephyr plug-in to Jira
+10. Add test cases to the task
+11. Update test cases pass/fail
+12. Report bug
+13. Report  
+
+Useful Links - https://www.tutorialspoint.com/jira/jira_overview.htm
+https://www.youtube.com/watch?v=Wgyirv9juFI
+
+Checkout - Epic (task)-> payment types (story)-> multiple tasks
+Logout story-> multiple tasks associated 3 to 4 Dev tasks...2 or 3 Testing tasks-> are done)-> done
+
+
+Features : A + B + C -> Another feature D
+
+Regression Testing: Ensure that the recent code changes have not adversely affected the existing functionality (Break)
+Scope: It involves re-executing previously executed tests works properly after the code change 
+
+Smoke Testing (Build Verification Testing BVT): Important functionalities should work without any major issues
+Objective: To determine if build is stable or not. To take it to the further testing activity. Initials builds
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
